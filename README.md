@@ -11,5 +11,5 @@ npm i -g @jobscale/helm
 ## Examples
 
 ```
-helm --version
+helm version
 ```
