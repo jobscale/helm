@@ -1,0 +1,20 @@
+{
+  "name": "@jobscale/helm",
+  "version": "0.0.1",
+  "description": "helm with @jobscale/helm",
+  "keywords": [
+    "helm",
+    "kubernetes",
+    "kubectl"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jobscale/helm.git"
+  },
+  "author": "jobscale <jobscale@users.noreply.github.com>",
+  "license": "MIT",
+  "bin": {
+    "helm": "bin/helm.sh"
+  },
+  "pre-commit": []
+}

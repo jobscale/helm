@@ -1,0 +1,9 @@
+node_modules/
+.idea/
+.env.json
+.env.js
+.config.json
+.config.js
+coverage/
+.vscode/
+package-lock.json
