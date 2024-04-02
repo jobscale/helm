@@ -1,6 +1,12 @@
-name: Node CI
+name: Nodejs CI
 
-on: [push, pull_request]
+on:
+  # schedule:
+  # - cron: '52 17 * * 1'
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   build:
